@@ -1,6 +1,6 @@
 {
   "name": "storybook-boilerplate-core",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Storybook Boiler Plate",
   "main": "dist/index.js",
   "scripts": {
