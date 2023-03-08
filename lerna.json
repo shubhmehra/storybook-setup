@@ -1,0 +1,12 @@
+{
+  "packages": [
+    "./src/core/**"
+  ],
+  "version": "independent",
+  "npmClient": "npm",
+  "command": {
+    "publish": {
+      "registry": "https://registry.npmjs.org"
+    }
+  }
+}
