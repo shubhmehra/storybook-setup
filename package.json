@@ -20,7 +20,7 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build:core": "lerna bootstrap && lerna exec npm run \"build\"",
     "build-storybook": "build-storybook -s public",
-    "publish": "npm run build && lerna publish"
+    "publish": "npm run build:core && lerna publish"
   },
   "eslintConfig": {
     "extends": [
