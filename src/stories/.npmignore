@@ -7,8 +7,6 @@ src/*
 # ignore node_modules
 node_modules
 
-index.js
-
 #ignore webpack config file
 webpack.config.js
 
