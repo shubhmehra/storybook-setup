@@ -1,0 +1,36 @@
+{
+  "name": "storybook-demo-stories",
+  "version": "0.0.0",
+  "description": "Storybook package demo with react",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel components --ignore node_modules,test,package.json,package-lock.json,.npmignore,Introduction.stories.mdx,.babelrc,assets --out-dir dist --copy-files",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shubhmehra/storybook-setup.git"
+  },
+  "keywords": [
+    "Storybook",
+    "Boilerplate"
+  ],
+  "author": "Shubham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhmehra/storybook-setup/issues"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "@babel/cli": "^7.21.0",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "homepage": "https://github.com/shubhmehra/storybook-setup#readme"
+}

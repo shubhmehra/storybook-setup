@@ -1,6 +1,6 @@
 {
   "packages": [
-    "./src/core/**"
+    "./src/stories/**"
   ],
   "version": "independent",
   "npmClient": "npm",

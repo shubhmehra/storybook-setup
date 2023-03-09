@@ -11,3 +11,5 @@ index.js
 
 #ignore webpack config file
 webpack.config.js
+
+.babelrc
