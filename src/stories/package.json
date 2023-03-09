@@ -1,6 +1,6 @@
 {
   "name": "storybook-demo-stories",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Storybook package demo with react",
   "main": "index.js",
   "scripts": {
